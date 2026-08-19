@@ -1,0 +1,23 @@
+{
+  "run_name": "sample-v2-paper-research",
+  "paper_mode": true,
+  "kill_switch": false,
+  "fast_window": 4,
+  "slow_window": 12,
+  "lookback_return_window": 8,
+  "volatility_window": 8,
+  "decision_interval": 1,
+  "initial_quote_balance": 10000.0,
+  "initial_base_balance": 0.0,
+  "max_target_weight": 0.35,
+  "max_turnover_quote": 3000.0,
+  "max_trade_fraction_of_reserve": 0.002,
+  "max_data_age_seconds": 21600,
+  "pool_fee_fraction": 0.003,
+  "execution_delay_blocks": 1,
+  "mev_haircut_bps": 8.0,
+  "minimum_trade_quote": 25.0,
+  "model_version": "deterministic-trend-v1",
+  "risk_config_version": "paper-risk-v1",
+  "cost_model_version": "v2-cost-v1"
+}
